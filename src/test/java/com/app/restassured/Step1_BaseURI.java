@@ -10,6 +10,12 @@ import java.util.logging.Logger;
 
 public class Step1_BaseURI {
 
+    //baseURI
+    //basePath
+    //log
+    //request specification
+    //printing response
+
     static Logger log = Logger.getLogger(Step1_BaseURI.class.getName());
 
     @Before
@@ -21,10 +27,11 @@ public class Step1_BaseURI {
     @Test
     public void findAssets(){
 
+
         RequestSpecification request=RestAssured.given();
         Response response=request.get();
-      //  log.info("Printing response Way 1:");
-      //  log.info(response.asString());
+        log.info("Printing response Way 1:");
+        log.info(response.asString());
         log.info("Printing response Way 2:");
         response.prettyPrint();
 

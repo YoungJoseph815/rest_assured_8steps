@@ -10,6 +10,9 @@ import static io.restassured.RestAssured.given;
 
 public class Step5_PostRequestValidation {
 
+    //queryParam
+    //json path
+
 
 
     @Test

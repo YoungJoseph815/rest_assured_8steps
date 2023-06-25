@@ -15,6 +15,13 @@ import static io.restassured.RestAssured.given;
 
 public class Step6_AdvancedPostValidation {
 
+    // serialization and deserialization
+    //extract()
+    // payload  body()
+    // Gson
+    // 3 types of Assertions  hamcrest/Junit hard assertion/restassuted then()
+
+
     Response response;
 
     //TODO DESERIALIZATION

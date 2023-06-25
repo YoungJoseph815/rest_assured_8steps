@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="softwaretestingmaterial">
+    <test name="testngTest">
+
+        <groups>
+            <run>
+                <include name="smokeTest" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.app.testng.group.Group" />
+            <class name="com.app.testng.annotations.Annotations" />
+        </classes>
+    </test>
+</suite>

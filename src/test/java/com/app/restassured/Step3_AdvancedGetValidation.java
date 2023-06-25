@@ -14,6 +14,10 @@ public class Step3_AdvancedGetValidation {
 
     static Logger log = Logger.getLogger(Step1_BaseURI.class.getName());
 
+    //Rest Assured log()
+    //Rest Assured Validation body/status code/header
+    //gherkin style steps like given()/when()/then()
+
     @Before
     public void setup() {
 

@@ -16,6 +16,8 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Step8_Authentication {
 
+    // Authentication   basic/preemtive/bearer token/ auth2.0
+
 
     @BeforeClass
     public static void setUp(){

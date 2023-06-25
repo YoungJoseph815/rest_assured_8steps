@@ -16,6 +16,8 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Step7_Parameters {
 
+    //pathParam
+
     @BeforeClass
     public static void setUp(){
       RestAssured.baseURI="https://jsonplaceholder.typicode.com/";
